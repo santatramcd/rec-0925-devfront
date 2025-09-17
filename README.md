@@ -44,3 +44,35 @@ Les URL doivent être personnalisées par candidat selon le format :
     - Section **« Notes de design »** : incohérences rencontrées, arbitrages, fallback de police si nécessaire.
 - *(Optionnel)* **Captures comparatives** montrant vos vérifications de pixel perfect.
 - **Temps passé** (indicatif).
+
+# santatramcd/rec-0925-devfront
+
+## Lien GitHub (fork public)
+https://github.com/santatramcd/rec-0925-devfront
+
+---
+
+## Instructions de lancement / build
+Si le projet est différent du projet de base, voici les étapes pour le lancer :  
+
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/santatramcd/rec-0925-devfront.git
+
+Aller dans le dossier :
+
+cd rec-0925-devfront
+**Installer les dépendances** :
+npm install et composer install pour Laravel
+
+**Lancer le projet** :
+npm run dev et php artisan serve pour Laravel
+
+## Notes de design
+Incohérences rencontrées : certaines marges et alignements sur mobile.
+
+Arbitrages réalisés : j’ai utilisé Tailwind pour harmoniser la mise en page.
+
+
+## Temps passé
+Environ 6 heures
