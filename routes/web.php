@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/santatra-completez-votre-reservation', function () {
+    return view('santatra-completez-votre-reservation');
+});
+Route::get('/santatra-paiement', function () {
+    return view('santatra-paiement');
+});
